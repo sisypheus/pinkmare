@@ -50,6 +50,7 @@ if &background ==# 'dark'
           \ 'grey':       ['#444444',   '245',  'LightGrey'],
           \ 'light_grey': ['#6D7A72',   '245',  'LightGrey'],
           \ 'gold':       ['#fff0f5',   '214',  'Yellow'],
+          \ 'white':       ['#ffffff',   '34',  'White'],
           \ 'none':       ['NONE',      'NONE', 'NONE']
           \ }
 
@@ -207,7 +208,7 @@ call s:HL('ModeMsg', s:palette.fg, s:palette.none, 'bold')
 call s:HL('MoreMsg', s:palette.blue, s:palette.none, 'bold')
 call s:HL('IncSearch', s:palette.none, s:palette.none, 'reverse')
 call s:HL('Search', s:palette.bg0, s:palette.red)
-call s:HL('MatchParen', s:palette.bg0, s:palette.grey, 'bold,italic,underline,reverse')
+call s:HL('MatchParen', s:palette.bg0, s:palette.white, 'bold,italic,underline,reverse')
 call s:HL('NonText', s:palette.grey, s:palette.none)
 call s:HL('Pmenu', s:palette.fg, s:palette.bg2)
 call s:HL('PmenuSbar', s:palette.none, s:palette.bg2)
