@@ -78,6 +78,7 @@ if &background ==# 'light'
           \ 'grey':       ['#444444',   '245',  'LightGrey'],
           \ 'light_grey': ['#6D7A72',   '245',  'LightGrey'],
           \ 'gold':       ['#fff0f5',   '214',  'Yellow'],
+          \ 'white':       ['#ffffff',   '34',  'White'],
           \ 'none':       ['NONE',      'NONE', 'NONE']
           \ }
 
